@@ -1,0 +1,26 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'ext.same-assets.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'same-assets.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.same-assets.com',
+        pathname: '**',
+      }
+    ],
+    unoptimized: true,
+  },
+  output: 'export',
+};
+
+export default nextConfig;
