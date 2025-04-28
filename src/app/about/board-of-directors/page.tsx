@@ -1,15 +1,9 @@
 export default function BoardOfDirectors() {
   const boardMembers = [
     { name: "Carey Sullivan", position: "President" },
-    { name: "Caroline Brown", position: "Vice-President" },
     { name: "Bill Duncan", position: "Treasurer" },
-    { name: "Charlotte Robertson", position: "Secretary" },
-    { name: "Harry Couch", position: "" },
     { name: "Pam Duncan", position: "" },
-    { name: "Monica Graff", position: "" },
     { name: "Cori McIntyre", position: "" },
-    { name: "Rick Miller", position: "" },
-    { name: "April Peterson", position: "" }
   ];
 
   return (
