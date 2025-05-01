@@ -398,6 +398,27 @@ export default function Projects() {
           </div>
         </div>
       </section>
+
+      {/* Navigation Section */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <h2 className="text-2xl font-bold mb-6 text-[#5b7e95]">Explore More</h2>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link
+              href="/"
+              className="px-6 py-3 bg-[#5b7e95] hover:bg-[#4c6a80] text-white font-medium rounded transition-colors"
+            >
+              Return Home
+            </Link>
+            <Link
+              href="/about"
+              className="px-6 py-3 border-2 border-[#5b7e95] text-[#5b7e95] hover:bg-[#5b7e95] hover:text-white font-medium rounded transition-colors"
+            >
+              Learn About Us
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
