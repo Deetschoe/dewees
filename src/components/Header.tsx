@@ -22,6 +22,7 @@ export default function Header() {
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
     { href: "/about", label: "About" },
+    { href: "/contact-us", label: "Contact Us"},
     { href: "/donate", label: "Donate", isButton: true }
   ];
 
