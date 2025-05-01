@@ -5,6 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
+interface NavLink {
+  href: string;
+  label: string;
+  isButton?: boolean;
+}
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,7 +18,7 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const links = [
+  const links: NavLink[] = [
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
     { href: "/about", label: "About" },

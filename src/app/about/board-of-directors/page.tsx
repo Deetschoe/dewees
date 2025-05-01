@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function BoardOfDirectors() {
   const boardMembers = [
     { name: "Carey Sullivan", position: "President" },
@@ -17,11 +19,12 @@ export default function BoardOfDirectors() {
       <section className="py-8">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex flex-col md:flex-row gap-8">
-            <div className="md:w-1/2">
-              <img 
+            <div className="md:w-1/2 relative h-[300px]">
+              <Image 
                 src="/osprey.jpeg" 
                 alt="Osprey perched on a wooden structure" 
-                className="w-full rounded-lg shadow-sm"
+                fill
+                className="rounded-lg object-cover"
               />
             </div>
             
