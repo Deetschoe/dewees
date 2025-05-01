@@ -51,7 +51,7 @@ export default function About() {
                 href="/about/board-of-directors"
                 className="inline-block px-6 py-3 bg-[#5b7e95] hover:bg-[#4c6a80] text-white font-medium rounded-lg transition-colors"
               >
-                Meet Our Board of Directors
+                Our Board of Directors
               </Link>
             </div>
 
