@@ -23,12 +23,13 @@ export default function Header() {
     <header className="bg-white w-full shadow-sm z-50">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex-shrink-0">
-          <div className="h-12 w-auto relative">
-            <img
+          <div className="h-12 w-[90px] relative">
+            <Image
               src="/logo.png"
               alt="Dewees Island Conservancy Logo"
-              width={90}
-              height={28}
+              fill
+              className="object-contain"
+              priority
             />
           </div>
         </Link>
