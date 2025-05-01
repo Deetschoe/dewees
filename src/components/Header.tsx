@@ -41,8 +41,6 @@ export default function Header() {
                 key={index}
                 href={link.href}
                 className="px-4 py-2 bg-[#5b7e95] hover:bg-[#4c6a80] text-white font-medium rounded transition-colors"
-                target={link.isExternal ? "_blank" : undefined}
-                rel={link.isExternal ? "noopener noreferrer" : undefined}
               >
                 {link.label}
               </Link>
@@ -51,8 +49,6 @@ export default function Header() {
                 key={index}
                 href={link.href}
                 className="text-[#5b7e95] hover:text-[#4c6a80] font-medium transition-colors"
-                target={link.isExternal ? "_blank" : undefined}
-                rel={link.isExternal ? "noopener noreferrer" : undefined}
               >
                 {link.label}
               </Link>
@@ -82,8 +78,6 @@ export default function Header() {
                     href={link.href}
                     className="w-full px-4 py-2 bg-[#5b7e95] hover:bg-[#4c6a80] text-white font-medium rounded text-center transition-colors"
                     onClick={toggleMenu}
-                    target={link.isExternal ? "_blank" : undefined}
-                    rel={link.isExternal ? "noopener noreferrer" : undefined}
                   >
                     {link.label}
                   </Link>
@@ -93,8 +87,6 @@ export default function Header() {
                     href={link.href}
                     className="px-2 py-2 text-[#5b7e95] hover:text-[#4c6a80] font-medium transition-colors"
                     onClick={toggleMenu}
-                    target={link.isExternal ? "_blank" : undefined}
-                    rel={link.isExternal ? "noopener noreferrer" : undefined}
                   >
                     {link.label}
                   </Link>
