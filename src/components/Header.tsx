@@ -15,11 +15,8 @@ export default function Header() {
   const links = [
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
-    { href: "/latest-news", label: "Latest News" },
     { href: "/about", label: "About" },
-    { href: "/contact-us", label: "Contact Us" },
-    { href: "/intern-program", label: "Intern Program" },
-    { href: "https://checkout.square.site/merchant/ML03XSQFYMM2D/checkout/RE7U5Z25C6EQCBNZBU4NPQ4J", label: "Donate", isButton: true, isExternal: true }
+    { href: "/donate", label: "Donate", isButton: true }
   ];
 
   return (

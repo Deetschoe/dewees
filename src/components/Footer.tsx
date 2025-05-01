@@ -96,14 +96,13 @@ export default function Footer() {
             <div className="space-y-2">
               <h4 className="font-medium">Quick Links</h4>
               <nav className="flex flex-col space-y-1 text-sm">
+                <Link href="/" className="hover:underline">Home</Link>
                 <Link href="/about" className="hover:underline">About</Link>
                 <Link href="/projects" className="hover:underline">Projects</Link>
-                <Link href="/intern-program" className="hover:underline">Intern Program</Link>
+                <Link href="/contact-us" className="hover:underline">Contact Us</Link>
                 <Link
-                  href="https://checkout.square.site/merchant/ML03XSQFYMM2D/checkout/RE7U5Z25C6EQCBNZBU4NPQ4J"
+                  href="/donate"
                   className="hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Donate
                 </Link>
